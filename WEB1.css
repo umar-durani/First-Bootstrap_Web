@@ -1,0 +1,617 @@
+/* insert popin font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* Insert body here */
+body {
+  background-color: #191970 !important;
+  color: #fff !important;
+  font-family: "Poppins", sans-serif !important;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.section-1 {
+  height: 100vh;
+}
+
+/* insert nav bar  */
+#contain {
+  margin-top: 30px;
+}
+#flex-ul {
+  /* justify-content: space-between !important; */
+  gap: 40px;
+  margin-top: -100px;
+}
+#flex-ul a {
+  color: #fff;
+}
+#nav-1 {
+  font-weight: bold;
+  margin-top: -70px;
+}
+.navbar-head a {
+  font-size: 40px;
+  color: #fff;
+}
+#contain-2 {
+  margin-top: 30px;
+}
+.head-1 {
+  font-weight: bold;
+  position: relative;
+}
+.head-1::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 87px;
+  background-color: #fff;
+  left: 0px;
+  bottom: 0;
+}
+.para-1 {
+  font-size: 18px;
+}
+.btn-1 {
+  border: 0px;
+  padding: 8px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(248, 63, 202);
+  margin-top: 20px;
+}
+.btn-1:hover {
+  background-color: rgb(226, 61, 160);
+  transition: 2sec ease;
+  color: #fff;
+  border: 3px solid #0ef;
+}
+/* insert img-1 here */
+.img-1 {
+  height: 400px;
+  width: 400px;
+  margin-top: -50px;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+.section-2 {
+  height: 100vh;
+}
+.img-2 {
+  height: 400px;
+  width: 400px;
+  margin-top: -50px;
+  border-radius: 50%;
+}
+.About-head {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+.About-head::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 87px;
+  background-color: #fff;
+  left: 0px;
+  bottom: -3px;
+}
+
+.para-2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.btn-2 {
+  margin-top: 30px;
+  padding: 8px 25px;
+  border: 0px;
+  border-radius: 10px;
+  outline: 0px;
+}
+.btn-2:hover {
+  background-color: rgb(226, 61, 160);
+  transition: 2sec ease;
+  color: white;
+  border: 3px solid #0ef;
+}
+.btn-2 a:hover {
+  color: #fff;
+}
+.btn-2 a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(248, 63, 202);
+  font-weight: bold;
+}
+#contain {
+  align-items: center;
+  margin-top: 100px;
+}
+/* insert section-3 here */
+.section-3 {
+  height: 100vh;
+}
+.active-head {
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+}
+.active-head::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 87px;
+  background-color: #fff;
+  left: 0px;
+  bottom: -3px;
+}
+.img-3 {
+  margin-left: 30px;
+  height: 170px;
+  width: 170px;
+  margin-left: 173px;
+}
+.img-4 {
+  height: 170px;
+  width: 170px;
+  margin-left: 40px;
+}
+.img-5 {
+  height: 170px;
+  width: 170px;
+  /* margin-left: 40px; */
+}
+.parent-img {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.btn-3 {
+  margin-top: 30px;
+  padding: 8px 25px;
+  border: 0px;
+  border-radius: 10px;
+  outline: 0px;
+  color: rgb(238, 24, 185);
+  position: relative;
+}
+.btn-3:hover {
+  background: #fa4299;
+  color: white;
+  border: 3px solid #0ef;
+}
+.col-6 {
+  margin: 0px;
+  padding: 0px;
+}
+.para-4 {
+  padding-top: 20px;
+}
+.section-4 {
+  margin-top: 100px;
+}
+.skill-head {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+}
+.skill-head::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 140px;
+  background-color: #fff;
+  /* left: 0px; */
+  bottom: -15px;
+  margin-left: 20px;
+}
+.para-3 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+#skill-parent {
+  margin: auto 0;
+}
+.section-5 {
+  height: 150vh;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.skillcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: transparent;
+  height: 70vh;
+  margin-bottom: 100px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+}
+.skillcontainer .wrapper {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.skillcontainer .wrapper .card {
+  background: transparent;
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.wrapper .card:hover {
+  background-color: #0ef;
+  color: transparent;
+  transform: translateY(-14px);
+  transition: background 1s, color 1s, transform 0.5s;
+}
+.skillcontainer .wrapper .card .circle {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: default;
+}
+.skillcontainer .card .circle .box,
+.skillcontainer .card .circle .box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.skillcontainer .card .circle .box {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  transition: all 0.2s;
+}
+.skillcontainer .card .circle:hover .box {
+  transform: translate(-50%, -50%) scale(0.91);
+}
+.skillcontainer .card .circle .box span,
+.skillcontainer .wrapper .card .text {
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skillcontainer .circle .box span {
+  font-size: 38px;
+  font-family: sans-serif;
+  font-weight: 600;
+  transform: translate(-45%, -45%);
+  transition: all 0.1s;
+}
+.skillcontainer .card .circle:hover .box span {
+  transform: translate(-45%, -45%) scale(1.09);
+}
+.skillcontainer .card .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 753px) {
+  .skillcontainer .wrapper {
+    max-width: 700px;
+  }
+  .skillcontainer .wrapper .card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 505px) {
+  .skillcontainer .wrapper {
+    max-width: 500px;
+  }
+  .skillcontainer .wrapper .card {
+    width: 100%;
+  }
+}
+.col ul li button {
+  color: #fff;
+}
+.para-5 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+.latest-head {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  padding-top: 20px;
+}
+.latest-head::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 170px;
+  background-color: #fff;
+  /* left: 0px; */
+  bottom: -10px;
+  margin-left: 32px;
+}
+.nav-tabs {
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 15px;
+  padding: 3px 10px;
+}
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 116px;
+  padding: 8px 130x;
+  margin-bottom: 11px;
+}
+.sec-img {
+  height: 150px;
+  width: 267px;
+  margin-top: 10px;
+}
+.sec-img3 {
+  width: 175px;
+  height: 227px;
+  margin-top: 10px;
+}
+.sec-img4 {
+  height: 235px;
+  width: 175px;
+  margin-top: 10px;
+}
+.btn-sec {
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+.btn-sec:hover {
+  border: 2px solid #0ef;
+  justify-content: center;
+  background-color: #fa4299;
+}
+#contain {
+  background-color: transparent;
+}
+.umar-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+.para-6 {
+  font-size: 17px;
+  text-align: justify;
+}
+.svg-icon {
+  font-size: 18px;
+}
+.carasoul-img {
+  height: 550px;
+  width: 450px;
+  border-radius: 10px;
+}
+.section-6 {
+  height: 100vh;
+}
+
+#parent-section-6 {
+  left: auto;
+  position: relative;
+  top: 10%;
+}
+.section-last {
+  height: 70vh;
+}
+.project-head {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 120px;
+}
+.project-head::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 38%;
+  background-color: #fff;
+  border-radius: 5px;
+  top: 60px;
+  left: 80px;
+}
+
+.footer-line {
+  position: relative;
+}
+.footer-line::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#button-footer {
+  font-weight: 800px;
+  margin-top: 50px;
+}
+#button-footer:hover {
+  background: #fa4299;
+  color: white;
+  border: 3px solid #0ef;
+  transform: scale(1.1);
+}
+.para-last {
+  text-align: center;
+}
+
+.para-last {
+  padding-left: 30px;
+}
+
+/* Insert media qerry*/
+
+@media screen and (max-width: 768px) {
+  .section-2 {
+    margin-top: 210px;
+  }
+  .section-3 {
+    margin-top: 70px;
+  }
+  .section-6 {
+    margin-top: 600px;
+  }
+  .img-1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .img-2 {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .para-3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .skillcontainer .wrapper .card {
+    height: 200px;
+    width: 160px !important;
+  }
+  .carasoul-img {
+    height: 350px;
+    width: 450px;
+  }
+  .section-last {
+    margin-top: 100px;
+  }
+}
+/* Insert second media querry */
+@media screen and (max-width: 425px) {
+  .img-3 {
+    height: 150px;
+    width: 150px;
+  }
+  .img-4 {
+    height: 150px;
+    width: 150px;
+    margin-left: 0px !important;
+  }
+  .img-5 {
+    height: 150px;
+    width: 150px;
+    margin-left: 0px !important;
+  }
+  #parent-section-6 {
+    margin-top: 350px !important;
+  }
+  .carasoul-img {
+    height: 315px;
+    width: 350px;
+    margin-top: 41px;
+  }
+  .section-last {
+    margin-top: 350px;
+  }
+  .project-head {
+    font-size: 25px;
+    margin-left: 0px !important ;
+  }
+  .para-6 {
+    font-size: 13px;
+  }
+  .project-head {
+    font-size: 30px;
+  }
+  .para-2 {
+    font-size: 11px;
+  }
+  .btn-2 {
+    margin-top: 0px !important;
+  }
+}
+
+/* Insert second media querry */
+@media screen and (max-width: 325px) {
+  .img-3 {
+    height: 100px;
+    width: 100px;
+  }
+  .img-4 {
+    height: 100px;
+    width: 100px;
+    margin-left: 0px !important;
+  }
+  .img-5 {
+    height: 100px;
+    width: 100px;
+    margin-left: 0px !important;
+  }
+  .skillcontainer {
+    background-color: transparent !important;
+  }
+  #parent-section-6 {
+    margin-top: 350px !important;
+  }
+  .carasoul-img {
+    height: 315px;
+    width: 350px;
+    margin-top: 41px;
+  }
+  .section-last {
+    margin-top: 350px;
+  }
+  .project-head {
+    font-size: 25px;
+    margin-left: 0px !important ;
+  }
+  .para-6 {
+    font-size: 13px;
+  }
+  .project-head {
+    font-size: 30px;
+  }
+  .para-1 {
+    font-size: 13px;
+  }
+  .para-2 {
+    font-size: 13px;
+  }
+  .para-3 {
+    font-size: 13px;
+  }
+  .para-4 {
+    font-size: 13px;
+  }
+  .para-5 {
+    width: 100% !important;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .btn-2 {
+    margin-top: 0px !important;
+  }
+}
